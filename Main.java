@@ -1,5 +1,38 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world");
-    }
-}
+
+        Azuolas azuolas = new Azuolas();
+        Berzas berzas = new Berzas();
+        Egle egle = new Egle();
+        Kadagys kadagys = new Kadagys();
+        Pusis pusis = new Pusis();
+
+        List<Medis> miskas = new ArrayList<>();
+        miskas.add(azuolas);
+        miskas.add(egle);
+        miskas.add(berzas);
+        miskas.add(kadagys);
+        miskas.add(pusis);
+
+        List<Spygliuotis> spygliuociai = new ArrayList<>();
+        spygliuociai.add(egle);
+        spygliuociai.add(pusis);
+        spygliuociai.add(kadagys);
+
+        List<Berzas> berzai = new ArrayList<>();
+        berzai.add(berzas);
+        berzai.add(berzas);
+
+        Generics generics = new Generics();
+
+        generics.ivairusMiskas(miskas);
+        System.out.println();
+        generics.spygliuociuMiskas(spygliuociai);
+        System.out.println();
+        generics.berzuMiskas(berzai);
+
+
+    }}
