@@ -1,14 +1,14 @@
 import java.util.List;
 
 public class Generics {
-    public void ivairusMiskas(List<Medis> medziai){
+    public void ivairusMiskas(List<? extends Medis> medziai){
         System.out.println("Ivairus miskas:");
         for (Medis medis : medziai) {
             medis.turi();
         }
     }
 
-    public void spygliuociuMiskas(List<Spygliuotis> spygliuociai){
+    public void spygliuociuMiskas(List<? extends Spygliuotis> spygliuociai){
         System.out.println("Spygliuociu miskas:");
         for (Spygliuotis spygliuotis : spygliuociai) {
             spygliuotis.turi();

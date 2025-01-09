@@ -21,6 +21,8 @@ public class Main {
         spygliuociai.add(egle);
         spygliuociai.add(pusis);
         spygliuociai.add(kadagys);
+        List<Egle> egles = new ArrayList<>();
+        egles.add(egle);
 
         List<Berzas> berzai = new ArrayList<>();
         berzai.add(berzas);
@@ -33,6 +35,12 @@ public class Main {
         generics.spygliuociuMiskas(spygliuociai);
         System.out.println();
         generics.berzuMiskas(berzai);
+        System.out.println();
+        generics.spygliuociuMiskas(egles);
+        System.out.println();
+        generics.ivairusMiskas(berzai);
+
+
 
 
     }}
