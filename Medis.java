@@ -1,5 +1,11 @@
 public class Medis {
-    public void turi(){
-        System.out.println("Medis turi kamiena");
+    private final String turi;
+
+    public Medis(String turi) {
+        this.turi = turi;
+    }
+
+    public void turi() {
+        System.out.println(turi);
     }
 }

@@ -1,6 +1,6 @@
 public class Berzas extends Lapuotis{
-    @Override
-    public void turi(){
-        System.out.println("Berzas turi lapus");
+    public Berzas() {
+        super();
+        System.out.print("Berzas ");
     }
 }

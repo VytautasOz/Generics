@@ -1,7 +1,6 @@
 public class Azuolas extends Lapuotis{
-
-    @Override
-    public void turi(){
-        System.out.println("Azuolas turi lapus");
+    public Azuolas() {
+        super();
+        System.out.print("Azuolas ");
     }
 }

@@ -1,7 +1,5 @@
-public class Lapuotis extends Medis{
-
-    @Override
-    public void turi(){
-        System.out.println("Lapuotis turi lapus");
+public class Lapuotis extends Medis {
+    public Lapuotis() {
+        super("turi lapus");
     }
 }

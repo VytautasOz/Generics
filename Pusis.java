@@ -1,6 +1,6 @@
 public class Pusis extends Spygliuotis{
-    @Override
-    public void turi(){
-        System.out.println("Pusis turi spyglius");
+    public Pusis() {
+        super();
+        System.out.print("Pusis ");
     }
 }
